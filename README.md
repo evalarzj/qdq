@@ -7,7 +7,7 @@ Official implementation for NeurIPS 2023 paper [Q-Distribution guided Q-learning
 
 1. Install [MuJoCo version 2.1.0](https://github.com/google-deepmind/mujoco/releases?page=2)
 2. Install [D4RL](https://github.com/Farama-Foundation/D4RL/tree/4aff6f8c46f62f9a57f79caa9287efefa45b6688)
-3. Install [jax][https://jax.readthedocs.io/en/latest/installation.html] 
+3. Install [jax](https://jax.readthedocs.io/en/latest/installation.html)
 
 
 ## Run QDQ
