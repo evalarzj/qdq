@@ -1,0 +1,15 @@
+
+import flax
+import collections
+from typing import Any, Callable, Dict, Optional, Sequence, Tuple, Union
+
+Batch = collections.namedtuple(
+    'Batch',
+    ['observations', 'actions', 'rewards', 'masks', 'next_observations', 'mc_return'])
+    
+
+PRNGKey = Any
+Params = flax.core.FrozenDict[str, Any]
+Shape = Sequence[int]
+InfoDict = Dict[str, Any]
+
