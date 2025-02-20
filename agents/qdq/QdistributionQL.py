@@ -13,8 +13,8 @@ from networks.policies import NormalTanhPolicy#, sample_actions
 from networks.policies import MSEPolicy
 from networks.critics import MultiHeadQ
 from networks.updates import ema_update
-from diffusions.diffusion import DDPM, ddpm_sampler, ddim_sampler
-from diffusions.utils import FourierFeatures, cosine_beta_schedule, vp_beta_schedule
+#from diffusions.diffusion import DDPM, ddpm_sampler, ddim_sampler
+#from diffusions.utils import FourierFeatures, cosine_beta_schedule, vp_beta_schedule
 from datasets import Batch
 from networks.types import InfoDict, Params, PRNGKey
 from agents.base import Agent
