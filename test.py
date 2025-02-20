@@ -2,6 +2,7 @@
 Used for single process testing
 """
 
+
 import os
 import numpy as np
 from tensorboardX import SummaryWriter
